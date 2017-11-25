@@ -13,27 +13,28 @@
 
     <div class="main">
       <div class="header">
-          <img class="logo" id="homePageClick" src="images/EnTill.svg" alt="logo" onclick="homePage()>
+          <img class="logo" id="homePageClick" src="images/EnTill.svg" alt="logo" onclick="homePage()">
+
+        </div>
+
+        <form class = "form">
+          Name of account
+          <input type="text" name="savingName"><br>
+          Date
+          <input type="text" name="savingName"><br>
+          Interval
+          <input type="text" name="savingName"><br>
+          This is what you need to save eatch mounth:xxx
+
+          <div class="next">
+            <button type="next" onclick="setUpTree()">start transfer</button>
+          </div>
+          <div class="next">
+            <button type="next" onclick="setUpTree()">next </button>
+          </div>
+        </form>
+
       </div>
 
-<!--
-      <form class = "form">
-        Name of account:<br>
-        <input type="text" name="savingName"><br>
-        Last name:<br>
-
-        <select name="type">
-          <option value="timestamp">Timestamp saving</option>
-          <option value="time">Limited-time saving</option>
-        </select><br>
-
-        <div class="submitDiv">
-          <button type="submit" onclick="submit()">Submit </button>
-        </div>
-      </form>
-    -->
-
-    </div>
-
-  </body>
-</html>
+    </body>
+  </html>

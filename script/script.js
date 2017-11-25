@@ -38,6 +38,10 @@ function setupTimestamp() {
   location.href = "setUpTimestamp.html";
 }
 
+function setUpTree() {
+  location.href = "checkOutTree.html";
+}
+
 function addLemon() {
   location.href = "setUpPage.html";
 }
