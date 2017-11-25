@@ -64,6 +64,13 @@ body .citrus
   width: 30%;
   padding-right: 8px;
 }
+
+body .next
+{
+  bottom: 0;
+  padding-right: 8px;
+}
+
 body .avocado
 {
   width: 30%;
