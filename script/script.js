@@ -26,6 +26,12 @@ function changeImageHelthy() {
        location.href = "checkOutTreeShears.html";
 }
 
+function homePage() {
+       location.href = "index.html";
+}
+
+
+
 function submit() {
   var test = 0;
 location.href = "index.html";
