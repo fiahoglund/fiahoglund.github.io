@@ -18,21 +18,26 @@ var image =  document.getElementById("imgClickAndChange");
    }
 }
 
-function changeImageOnly() {
-var image1 =  document.getElementById("avocadoClick");
-var image2 =  document.getElementById("orangeClick");
+function changeImageRotten() {
+var image2 =  document.getElementById("avocadoClick");
+
+  if (image2.getAttribute('src') == "images/Seed.svg")
+   {
+       image2.src = "images/DyingTree.svg";
+   }
+}
+
+function changeImageHelthy() {
+var image1 =  document.getElementById("orangeClick");
 
   if (image1.getAttribute('src') == "images/Seed.svg")
    {
-       image1.src = "images/LemonTree.svg";
+       image1.src = "images/HealthyTree.svg";
    }
-   else if(image2.getAttribute('src') == "images/Seed.svg")
-   {
-       image2.src = "images/LemonTree.svg";
-   }
-   else
-     {
-       image2.src = "images/LemonTree.svg";
-       image1.src = "images/LemonTree.svg";
-     }
+}
+
+function submit() {
+  var test = 0;
+location.href = "index.html";
+image.src = "images/LemonTree.svg";
 }

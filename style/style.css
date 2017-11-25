@@ -9,7 +9,7 @@ body .main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: ###f8eded;
+  background: #ffe9e6;
   padding-bottom: 100px;
 }
 
@@ -23,7 +23,7 @@ body .main {
 }
 
 body .footer {
-  background: #ffe6e6;
+  background: #f7887c;
   text-align: center;
   width: 100%;
   position:absolute; bottom:0px;
@@ -65,8 +65,17 @@ body .LemonTree
   width: 100%;
 }
 
+
+input[type=text] {
+    background-color: #fbaba2;
+    color: #b9554a;
+    width: 100%;
+    border: 3px solid #f9dbdb;
+    padding: 5px;
+}
+
 #Text {
-  color: #59a6c0;
+  color: #b9554a;
   text-align: center;
 }
 
