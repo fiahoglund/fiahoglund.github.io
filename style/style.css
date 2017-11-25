@@ -2,6 +2,7 @@ html,body {
   margin: 0;
   padding: 0;
 }
+
 body .main {
   width: 100%;
   padding-top: 30px;
@@ -12,27 +13,6 @@ body .main {
   background: #ffe9e6;
   padding-bottom: 100px;
   font-family: "Verdana", Verdana, Sans-serif;
-}
-
-form {
-    margin-top: 50px;
-}
-
-@media (min-width: 500px) {
-  button span {
-    display: none;
-  }
-  button:hover span {
-    display: inline-block;
-  }
-}
-
-body .footer {
-  background: #f7887c;
-  text-align: center;
-  width: 100%;
-  position:absolute; bottom:0px;
-  height: 30%;
 }
 
 body .img
@@ -48,6 +28,24 @@ body .imgBig
   display: block;
   display: inline;
   width: 60%;
+}
+
+body .menu
+{
+  width: 100%;
+  display: inline;
+}
+
+body .footer {
+  background: #f7887c;
+  text-align: center;
+  width: 100%;
+  position:absolute; bottom:0px;
+  height: 30%;
+}
+
+form {
+    margin-top: 50px;
 }
 
 body .citrus
@@ -116,12 +114,6 @@ input[type=text] {
   text-align: center;
   font-family: "Verdana", Verdana, Sans-serif;
   font-weight: lighter;
-}
-
-body .menu
-{
-  width: 100%;
-  display: inline;
 }
 
 descr_left {
