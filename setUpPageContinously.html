@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <title>Grow</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <link rel = "stylesheet" type="text/css" href="style/style.css" >
+  </head>
+
+  <body bgcolor="#ffe9e6">
+    <script src="script/script.js"></script>
+
+    <div class="main">
+      <div class="header">
+          <img class="logo" id="homePageClick" src="images/EnTill.svg" alt="logo">
+      </div>
+
+      <form class = "form">
+        Name of account:<br>
+        <input type="text" name="savingName"><br>
+        Last name:<br>
+
+        <select name="type">
+          <option value="continous">Continous saving</option>
+          <option value="time">Limited-time saving</option>
+        </select><br>
+
+        <div class="submitDiv">
+          <button type="submit" onclick="submit()">Submit </button>
+        </div>
+      </form>
+
+    </div>
+
+  </body>
+</html>
