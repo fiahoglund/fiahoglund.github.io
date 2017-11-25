@@ -151,6 +151,12 @@ input[type=text] {
 }
 
 #Text {
+  color: #Ffffff;
+  text-align: center;
+  font-family: "Verdana", Verdana, Sans-serif;
+  font-weight: lighter;
+}
+#TextRed {
   color: #b9554a;
   text-align: center;
   font-family: "Verdana", Verdana, Sans-serif;
