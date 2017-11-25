@@ -42,7 +42,7 @@ body .citrus
   width: 30%;
   padding-right: 8px;
 }
-body .advocado
+body .avocado
 {
   width: 30%;
 }
@@ -50,6 +50,13 @@ body .orange
 {
   width: 30%;
   padding-left: 8px;
+}
+
+body .LemonTree
+{
+  width: 200%;
+  padding-left: 8px;
+
 }
 
 #Text {

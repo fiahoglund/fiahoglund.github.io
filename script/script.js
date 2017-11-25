@@ -1,18 +1,37 @@
 
 
-function myFunction() {
-    if( document.getElementById("imgClickAndChange").src== "https://fiahoglund.github.io/Seed.svg")
-    {
-      //ändra bilden till trädet
-      document.getElementById("imgClickAndChange").src = "leaf.png";
 
-      //länka till html sidan där man sätter upp sitt konto
-      window.open("D:\Marie\work\casoma_grow\fiahoglund.github.io\setUpPage");
+function changeImage() {
+var image =  document.getElementById("imgClickAndChange");
+  if (image.getAttribute('src') == "images/Seed.svg")
+   {
+       image.src = "images/LemonTree.svg";
 
-    }
-    else
-    {
-      //Länka till html sidan för att kolla på kontot man redan har
-      window.open("D:\Marie\work\casoma_grow\fiahoglund.github.io\checkOutTree");
-    }
+       location.href = "setUpPage.html";
+
+   }
+   else
+   {
+       image.src = "images/LemonTree.svg";
+       location.href = "checkOutTree.html";
+   }
+}
+
+function changeImageOnly() {
+var image1 =  document.getElementById("avocadoClick");
+var image2 =  document.getElementById("orangeClick");
+
+  if (image1.getAttribute('src') == "images/Seed.svg")
+   {
+       image1.src = "images/LemonTree.svg";
+   }
+   else if(image2.getAttribute('src') == "images/Seed.svg")
+   {
+       image2.src = "images/LemonTree.svg";
+   }
+   else
+     {
+       image2.src = "images/LemonTree.svg";
+       image1.src = "images/LemonTree.svg";
+     }
 }
