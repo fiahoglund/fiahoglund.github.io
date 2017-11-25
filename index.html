@@ -1,51 +1,33 @@
 <!DOCTYPE html>
 <html>
-<title>Grow</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<head>
-<link rel = "stylesheet" type="text/css" href="style/style.css" >
-</head>
+  <title>Grow</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<body bgcolor="#ffe9e6">
-<script src="script/script.js"></script>
+  <head>
+    <link rel = "stylesheet" type="text/css" href="style/style.css" >
+  </head>
 
-<header>
-</header>
+  <body bgcolor="#ffe9e6">
+    <script src="script/script.js"></script>
 
-<div class="main">
+    <div class="main">
+      <div class="img">
+        <img class="citrus" id="imgClickAndChange" src="images/Seed.svg" alt="citrus tree" onclick="changeImage()">
+        <img class="avocado" id="avocadoClick" src="images/Seed.svg" alt="advocado seed" onclick="changeImageRotten()">
+        <img class="orange" id="orangeClick" src="images/Seed.svg" alt="orange seed" onclick="changeImageHelthy()">
+      </div>
 
-  <div class="img">
-  <img class="citrus" id="imgClickAndChange" src="images/Seed.svg" alt="citrus tree" onclick="changeImage()">
-  <img class="avocado" id="avocadoClick" src="images/Seed.svg" alt="advocado seed" onclick="changeImageRotten()">
-  <img class="orange" id="orangeClick" src="images/Seed.svg" alt="orange seed" onclick="changeImageHelthy()">
+      <div class="menu">
+        <descr_left id= "Descriptive">Account</descr_left>
+        <descr_middle id= "Descriptive">Funds</descr_middle>
+        <descr_right id= "Descriptive">Shares</descr_right>
+      </div>
+    </div>
 
-</div>
-
-<div class="menu">
-
-  <descr_left id= "Descriptive">Account</descr_left>
-  <descr_middle id= "Descriptive">Funds</descr_middle>
-  <descr_right id= "Descriptive">Shares</descr_right>
-
-  <!--
-  <h2 id= "Descriptive">Account</h2>
-  <h2 id= "Descriptive">Funds</h2>
-  <h2 id= "Descriptive">Shares</h2>
-  -->
-  </div>
-
-</div>
-
-
-
-
-  <div class="footer">
-      <h2 id = "Text">Want to grow some savings? just press the seed to plant your saving fruit!</h2>
-  </div>
-
-</div>
-
-</body>
+    <div class="footer">
+        <h2 id = "Text">Want to grow some savings? just press the seed to plant your saving fruit!</h2>
+    </div>
+  </body>
 </html>
