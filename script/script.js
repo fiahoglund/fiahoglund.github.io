@@ -7,8 +7,8 @@ var image =  document.getElementById("imgClickAndChange");
    {
        image.src = "images/LemonTree.svg";
 
-       location.href = "setUpPage.html";
-       //location.href = "checkOutTree.html";
+       //location.href = "setUpPage.html";
+       location.href = "checkOutTree.html";
 
    }
    else
@@ -19,21 +19,11 @@ var image =  document.getElementById("imgClickAndChange");
 }
 
 function changeImageRotten() {
-var image2 =  document.getElementById("avocadoClick");
-
-  if (image2.getAttribute('src') == "images/Seed.svg")
-   {
-       image2.src = "images/DyingTree.svg";
-   }
+       location.href = "checkOutTreeFounds.html";
 }
 
 function changeImageHelthy() {
-var image1 =  document.getElementById("orangeClick");
-
-  if (image1.getAttribute('src') == "images/Seed.svg")
-   {
-       image1.src = "images/HealthyTree.svg";
-   }
+       location.href = "checkOutTreeShears.html";
 }
 
 function submit() {

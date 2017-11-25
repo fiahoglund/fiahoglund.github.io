@@ -106,8 +106,8 @@ descr_left {
   position: absolute;
   margin: auto;
   top: 350px;
-  left: 200px;
-  right: 0;
+  left: 0;
+  right: 200px;
 }
 
 descr_middle {
@@ -125,8 +125,8 @@ descr_right {
   position: absolute;
   margin: auto;
   top: 350px;
-  left: 0;
-  right: 200px;
+  left: 200px;
+  right: 0;
 }
 
 #Descriptive {
@@ -134,4 +134,26 @@ descr_right {
   font-family: "Verdana", Verdana, Sans-serif;
   font-weight: lighter;
   text-align: center;
+}
+
+th {
+  padding-left: 25px;
+    text-align: left;
+    color: #b9554a;
+    font-family: "Verdana", Verdana, Sans-serif;
+    font-weight: bold;
+}
+td {
+  padding-left: 25px;
+    text-align: left;
+    color: #b9554a;
+    font-family: "Verdana", Verdana, Sans-serif;
+    font-weight: lighter;
+}
+
+body .smalLemon
+{
+  height: 15px;
+  width: 15px;
+  padding-right: 5px;
 }
