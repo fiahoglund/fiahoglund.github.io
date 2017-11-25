@@ -1,39 +1,50 @@
 <!DOCTYPE html>
 <html>
-<title>Grow</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<head>
-<link rel = "stylesheet" type="text/css" href="style/style.css" >
-</head>
+  <title>Grow</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <link rel = "stylesheet" type="text/css" href="style/style.css" >
+  </head>
 
-<body bgcolor="#ffe9e6">
-<script src="script/script.js"></script>
+  <body bgcolor="#ffe9e6">
+    <script src="script/script.js"></script>
 
-<header>
-</header>
+    <div class="main">
+      <div class="header">
+          <img class="logo" id="homePageClick" src="images/EnTill.svg" alt="logo">
+      </div>
 
-<div class="main">
-  <div class="header">
-      <img class="logo" id="homePageClick" src="images/EnTill.svg" alt="logo">
-  </div>
-  <form class = "form">
-    Name of account:<br>
-    <input type="text" name="savingName"><br>
-    Last name:<br>
-    <select name="type">
-      <option value="continuous">Continuous saving</option>
-      <option value="time">Limited-time saving</option>
-    </select><br>
 
-    <div class="submitDiv">
-      <button type="submit" onclick="submit()">Submit </button>
+      <div class="menu">
+        <h2 id = "Text">What type of goal do you want?</h2>
+      </div>
+
+      <form>
+        <div>
+          <span><button>Continously</button></span>
+          <span><button>Timestamp</button></span></div>
+      </form>
+
+      <!--
+      <form class = "form">
+        Name of account:<br>
+        <input type="text" name="savingName"><br>
+        Last name:<br>
+
+        <select name="type">
+          <option value="continuous">Continuous saving</option>
+          <option value="time">Limited-time saving</option>
+        </select><br>
+
+        <div class="submitDiv">
+          <button type="submit" onclick="submit()">Submit </button>
+        </div>
+      </form>
+    -->
 
     </div>
-  </form>
 
-</div>
-
-</body>
+  </body>
 </html>
