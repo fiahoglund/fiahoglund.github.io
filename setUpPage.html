@@ -13,7 +13,7 @@
 
     <div class="main">
       <div class="header">
-          <img class="logo" id="homePageClick" src="images/EnTill.svg" alt="logo">
+          <img class="logo" id="homePageClick" src="images/EnTill.svg" alt="logo" onclick="homePage()">
       </div>
 
 
@@ -23,26 +23,9 @@
 
       <form>
         <div>
-          <span><button>Continously</button></span>
-          <span><button>Timestamp</button></span></div>
+          <span><button onclick="setupContinously()">Continously</button></span>
+          <span><button onclick="setupTimestamp()">Timestamp</button></span></div>
       </form>
-
-      <!--
-      <form class = "form">
-        Name of account:<br>
-        <input type="text" name="savingName"><br>
-        Last name:<br>
-
-        <select name="type">
-          <option value="continuous">Continuous saving</option>
-          <option value="time">Limited-time saving</option>
-        </select><br>
-
-        <div class="submitDiv">
-          <button type="submit" onclick="submit()">Submit </button>
-        </div>
-      </form>
-    -->
 
     </div>
 
