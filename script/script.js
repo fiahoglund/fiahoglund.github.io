@@ -30,7 +30,13 @@ function homePage() {
        location.href = "index.html";
 }
 
+function setupContinously() {
+  location.href = "setUpContinously.html";
+}
 
+function setupTimestamp() {
+  location.href = "setUpTimestamp.html";
+}
 
 function submit() {
   var test = 0;
