@@ -80,6 +80,15 @@ body .logo
   right: 0;
 }
 
+body .addPicture
+{
+  width: 40px;
+  position: absolute;
+  margin: auto;
+  top: 10px;
+  right: 10px;
+}
+
 input[type=text] {
     background-color: #fbaba2;
     color: #b9554a;

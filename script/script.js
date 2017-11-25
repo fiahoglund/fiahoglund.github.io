@@ -7,8 +7,8 @@ var image =  document.getElementById("imgClickAndChange");
    {
        image.src = "images/LemonTree.svg";
 
-       location.href = "setUpPage.html";
-       //location.href = "checkOutTree.html";
+       //location.href = "setUpPage.html";
+       location.href = "checkOutTree.html";
 
    }
    else
