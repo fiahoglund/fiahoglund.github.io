@@ -4,17 +4,18 @@
 	 viewBox="0 0 65 25.2" style="enable-background:new 0 0 65 25.2;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;stroke:#BA554A;stroke-width:2;stroke-miterlimit:10;}
-	.st1{fill:none;}
+	.st1{enable-background:new    ;}
 	.st2{fill:#BB554A;}
-	.st3{font-family:'Verdana';}
-	.st4{font-size:9px;}
 </style>
-<title>Resurs 3</title>
-<g id="Lager_2_1_">
-	<g id="Lager_1-2">
-		<rect x="1" y="1" class="st0" width="63" height="23.2"/>
-		<rect x="5.5" y="8.2" class="st1" width="55.3" height="10.5"/>
-		<text transform="matrix(1 0 0 1 5.45 15.97)" class="st2 st3 st4">Continiously</text>
+<symbol  id="Continiously" viewBox="-32.5 -12.6 65 25.2">
+	<title>Resurs 3</title>
+	<g id="Lager_2_2_">
+		<g id="Lager_1-2_1_">
+			<rect x="-31.5" y="-11.6" class="st0" width="63" height="23.2"/>
+			<rect x="-27.1" y="-6.1" style="fill:none;" width="55.3" height="10.5"/>
+			<text transform="matrix(1 0 0 -1 -27.0552 -3.3896)" class="st2" style="font-family:'Verdana'; font-size:9px;">Continiously</text>
+		</g>
 	</g>
-</g>
+</symbol>
+<use xlink:href="#Continiously"  width="65" height="25.2" x="-32.5" y="-12.6" transform="matrix(1 0 0 -1 32.505 12.58)" style="overflow:visible;"/>
 </svg>
