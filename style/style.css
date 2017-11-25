@@ -55,11 +55,11 @@ body .menu
 }
 
 body .footer {
-  background: #f7887c;
+  background: #b9554a;
   text-align: center;
   width: 100%;
   position:absolute; bottom:0px;
-  height: 30%;
+  height: 25%;
 }
 
 form {
@@ -196,14 +196,15 @@ descr_right {
 th {
   padding-left: 25px;
     text-align: left;
-    color: #b9554a;
+    color: #ffffff;
     font-family: "Verdana", Verdana, Sans-serif;
-    font-weight: bold;
+    font-weight: lighter;
+    font-size: 1.2em;
 }
 td {
   padding-left: 25px;
     text-align: left;
-    color: #b9554a;
+    color: #ffffff;
     font-family: "Verdana", Verdana, Sans-serif;
     font-weight: lighter;
 }
