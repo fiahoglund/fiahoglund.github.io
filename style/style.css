@@ -69,3 +69,31 @@ body .LemonTree
   color: #59a6c0;
   text-align: center;
 }
+
+body .menu
+{
+  width: 100%;
+  display: inline;
+}
+
+descr_left {
+  width: 30%;
+  margin-left: 4%;
+  display: inline-block;
+}
+
+descr_middle {
+  width: 30%;
+  display: inline-block;
+}
+
+descr_right {
+  width: 30%;
+  margin-righ: 4%;
+  display: inline-block;
+}
+
+#Descriptive {
+  color: #59a6c0;
+  text-align: center;
+}
