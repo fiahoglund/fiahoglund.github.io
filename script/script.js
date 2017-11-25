@@ -31,11 +31,15 @@ function homePage() {
 }
 
 function setupContinously() {
-  location.href = "setUpContinously.html";
+  location.href = "setupContinously.html";
 }
 
 function setupTimestamp() {
   location.href = "setUpTimestamp.html";
+}
+
+function addLemon() {
+  location.href = "setUpPage.html";
 }
 
 function submit() {
