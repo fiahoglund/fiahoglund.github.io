@@ -30,11 +30,11 @@ function homePage() {
        location.href = "index.html";
 }
 
-function setupContinously() {
-  location.href = "setupContinously.html";
+function setUpContinously() {
+ location.href = "setUpContinously.html";
 }
 
-function setupTimestamp() {
+function setUpTimestamp() {
   location.href = "setUpTimestamp.html";
 }
 
