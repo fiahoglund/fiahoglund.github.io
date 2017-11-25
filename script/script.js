@@ -31,7 +31,7 @@ function homePage() {
 }
 
 function setupContinously() {
-  location.href = "setUpContinouslyA.html";
+  location.href = "setUpContinously.html";
 }
 
 function setupTimestamp() {
