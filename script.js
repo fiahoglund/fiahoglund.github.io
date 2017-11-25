@@ -1,7 +1,7 @@
 
 
 function myFunction() {
-    if( document.getElementById("imgClickAndChange").src== "https://fiahoglund.github.io/Seed.svg")
+    if( document.getElementById("imgClickAndChange").src== "http://fiahoglund.github.io/Seed.svg")
     {
       //ändra bilden till trädet
       document.getElementById("imgClickAndChange").src = "leaf.png";
